@@ -1,0 +1,56 @@
+@charset "utf-8";
+.clear:after {
+	overflow: hidden;
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+#wrap {
+	width: 100%;
+	min-height: 500px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#inner {
+	width: 1000%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#inner img {
+	width: 10%;
+	float: left;
+}
+
+.paganation {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	left: -4.5px;
+}
+
+.paganation span {
+	background: #C1C1C1;
+	color: #C1C1C1;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	line-height: 15px;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.paganation .selected {
+	background: #fff;
+	color: white;
+}
+
